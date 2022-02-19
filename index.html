@@ -1,0 +1,422 @@
+<!DOCTYPE HTML>
+<head>
+<meta charset="UTF-8">
+<title>Audio Demos</title>
+</head>
+
+<body>
+<center><h1>A Differentiable DSP Framework  for Singing Voice Mel-vocoder</h1></center>
+
+<div class="">
+<p>The following audio files are the ones used in the subjective evaluation in our IJCAI2022 submission.</p>
+<p><b>Note: </b>Please kindly make sure that your web browser supports the format of wav audio. The numbers in the following table specify the first browser version that fully supports the audio element.  And, we suggest hearing the audio files with a headset.</p>
+<center><figure>
+<img src="https://github.com/furongyang/audio-icassp/blob/main/browser.PNG?raw=true"
+         alt="web browser supports"style="width:45%"></figure></center></div><hr>
+<!-- ------------------------------------------------------------------------- -->
+
+<center><h2>These are the audio files of the spectrograms displayed in Figure 1</h2></center>
+<figure><img src="p1.png"alt="web browser supports"
+	style="width:50%;float:left;margin-right:4px"></figure>
+<figure><img src="p2.png"alt="web browser supports"style="width:47%"></figure>
+<audio controls id="player" style="height:40px; width:160px;margin-left:80px">
+<source src="fig1/rec.wav"></audio>
+<audio controls id="player" style="height:40px; width:160px;margin-left:25px">
+<source src="fig1/pwg.wav"></audio>
+<audio controls id="player" style="height:40px; width:160px;margin-left:20px">
+<source src="fig1/hifi.wav"></audio>
+<audio controls id="player" style="height:40px; width:160px;margin-left:20px">
+<source src="fig1/ddsp.wav"></audio>
+<audio controls id="player" style="height:40px; width:160px;margin-left:20px">
+<source src="fig1/dws.wav"></audio>
+<audio controls id="player" style="height:40px; width:160px;margin-left:20px">
+<source src="fig1/saw.wav"></audio>
+<p style="line-height:3.5em;"></p><hr>
+
+<!-- ------------------------------------------------------------------------- -->
+<center><h2>These are the audio files of the examples discussed in Figure 4</h2>
+<img src="buzzing.png"alt="web browser supports"style="width:40%">
+<audio controls id="player" style="height:50px; width:300px;margin-bottom:305px">
+<source src="fig4/addh.wav"></audio>
+<audio controls id="player" style="height:50px; width:300px;margin-bottom:208px;margin-left:-300px"><source src="fig4/subh.wav"></audio>
+<audio controls id="player" style="height:50px; width:300px;margin-bottom:111px;margin-left:-300px"><source src="fig4/addn.wav"></audio>
+<audio controls id="player" style="height:50px; width:300px;margin-bottom:14px;margin-left:-300px"><source src="fig4/subn.wav"></audio>
+<div><br/><br/>
+
+<h3>DiffAdd (<I>harmonic-plus-noise</I>) &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 
+DiffSub (<I>harmonic-plus-noise</I>)</h3>
+<audio controls id="player" style="height:50px; width:300px;margin-bottom:14px;margin-left:0px"><source src="fig4/add.wav"></audio>
+<audio controls id="player" style="height:50px; width:300px;margin-bottom:14px;margin-left:80px"><source src="fig4/sub.wav"></audio></div>
+<p style="line-height:3.5em;"></p><hr></center>
+<!-- ------------------------------------------------------------------------- -->
+
+<div class="feature">
+<center><h1><font color="DarkRed">2.5-hour data & well-trained</font></h1>
+<table border=1>
+
+<tr><td></td>
+<td align="center"><b>Recording</b></td>
+<td align="center"><b>Parallel WaveGAN</b></td>
+<td align="center"><b>Hifi-GAN</b></td>
+<td align="center"><b>DiffAdd</b></td>
+<td align="center"><b>DiffSub</b></td></tr>
+
+<!-- S1 Loud & Long Note -->
+<tr><td align="center"><b><i>Loud & Long Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲長音/rec/f1_043_6.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲長音/rec/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲長音/pwg/f1_043_6.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲長音/pwg/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲長音/hifi/f1_043_6.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲長音/hifi/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲長音/ddsp/f1_043_6.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲長音/ddsp/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲長音/saw/f1_043_6.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲長音/saw/f1_142_6.wav"></audio></td></tr>
+
+<!-- S1 Loud & Short Note -->
+<tr><td align="center"><b><i>Loud & Short Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲短音/rec/f1_020_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲短音/rec/f1_027_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲短音/pwg/f1_020_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲短音/pwg/f1_027_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲短音/hifi/f1_020_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲短音/hifi/f1_027_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲短音/ddsp/f1_020_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲短音/ddsp/f1_027_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲短音/saw/f1_020_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/大聲短音/saw/f1_027_6.wav"></audio></td></tr>
+
+<!-- S1 Soft & Long Note -->
+<tr><td align="center"><b><i>Soft & Long Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲長音/rec/f1_043_3.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲長音/rec/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲長音/pwg/f1_043_3.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲長音/pwg/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲長音/hifi/f1_043_3.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲長音/hifi/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲長音/ddsp/f1_043_3.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲長音/ddsp/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲長音/saw/f1_043_3.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲長音/saw/f1_133_9.wav"></audio></td></tr>
+
+<!-- S1 Soft & Short Note -->
+<tr><td align="center"><b><i>Soft & Short Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲短音/rec/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲短音/rec/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲短音/pwg/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲短音/pwg/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲短音/hifi/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲短音/hifi/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲短音/ddsp/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲短音/ddsp/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲短音/saw/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s1/小聲短音/saw/f1_037_3.wav"></audio></td></tr>
+
+</table></center></div><br/><br/>
+
+
+<!-- ------------------------------------------------------------------------- -->
+
+<div class="feature">
+<center><h1><font color="DarkRed">2.5-hour data & 12-hour training</font></h1></center>
+<table border=1>
+<tr><td></td>
+<td align="center"><b>Recording</b></td>
+<td align="center"><b>Parallel WaveGAN</b></td>
+<td align="center"><b>Hifi-GAN</b></td>
+<td align="center"><b>DiffAdd</b></td>
+<td align="center"><b>DiffSub</b></td></tr>
+
+<!-- S2 Loud & Long Note -->
+<tr><td align="center"><b><i>Loud & Long Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲長音/rec/f1_043_6.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲長音/rec/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲長音/pwg/f1_043_6.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲長音/pwg/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲長音/hifi/f1_043_6.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲長音/hifi/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲長音/ddsp/f1_043_6.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲長音/ddsp/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲長音/saw/f1_043_6.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲長音/saw/f1_142_6.wav"></audio></td></tr>
+
+<!-- s2 Loud & Short Note -->
+<tr><td align="center"><b><i>Loud & Short Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲短音/rec/f1_020_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲短音/rec/f1_027_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲短音/pwg/f1_020_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲短音/pwg/f1_027_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲短音/hifi/f1_020_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲短音/hifi/f1_027_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲短音/ddsp/f1_020_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲短音/ddsp/f1_027_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲短音/saw/f1_020_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/大聲短音/saw/f1_027_6.wav"></audio></td></tr>
+
+<!-- s2 Soft & Long Note -->
+<tr><td align="center"><b><i>Soft & Long Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲長音/rec/f1_043_3.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲長音/rec/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲長音/pwg/f1_043_3.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲長音/pwg/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲長音/hifi/f1_043_3.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲長音/hifi/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲長音/ddsp/f1_043_3.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲長音/ddsp/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲長音/saw/f1_043_3.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲長音/saw/f1_133_9.wav"></audio></td></tr>
+
+<!-- s2 Soft & Short Note -->
+<tr><td align="center"><b><i>Soft & Short Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲短音/rec/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲短音/rec/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲短音/pwg/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲短音/pwg/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲短音/hifi/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲短音/hifi/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲短音/ddsp/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲短音/ddsp/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲短音/saw/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s2/小聲短音/saw/f1_037_3.wav"></audio></td></tr>
+
+</table></center></div><br/><br/>
+
+<!-- ------------------------------------------------------------------------- -->
+
+<div class="feature">
+<center><h1><font color="DarkRed">3-minute data & 4-hour training</font></h1></center>
+<table border=1>
+<tr><td></td>
+<td align="center"><b>Recording</b></td>
+<td align="center"><b>Parallel WaveGAN</b></td>
+<td align="center"><b>Hifi-GAN</b></td>
+<td align="center"><b>DiffAdd</b></td>
+<td align="center"><b>DiffSub</b></td></tr>
+
+<!-- s3 Loud & Long Note -->
+<tr><td align="center"><b><i>Loud & Long Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲長音/rec/f1_059_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲長音/rec/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲長音/pwg/f1_059_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲長音/pwg/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲長音/hifi/f1_059_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲長音/hifi/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲長音/ddsp/f1_059_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲長音/ddsp/f1_142_6.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲長音/saw/f1_059_7.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲長音/saw/f1_142_6.wav"></audio></td></tr>
+
+<!-- s3 Loud & Short Note -->
+<tr><td align="center"><b><i>Loud & Short Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲短音/rec/f1_013_5.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲短音/rec/f1_020_7.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲短音/pwg/f1_013_5.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲短音/pwg/f1_020_7.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲短音/hifi/f1_013_5.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲短音/hifi/f1_020_7.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲短音/ddsp/f1_013_5.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲短音/ddsp/f1_020_7.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲短音/saw/f1_013_5.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/大聲短音/saw/f1_020_7.wav"></audio></td></tr>
+
+<!-- s3 Soft & Long Note -->
+<tr><td align="center"><b><i>Soft & Long Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲長音/rec/f1_013_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲長音/rec/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲長音/pwg/f1_013_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲長音/pwg/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲長音/hifi/f1_013_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲長音/hifi/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲長音/ddsp/f1_013_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲長音/ddsp/f1_133_9.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲長音/saw/f1_013_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲長音/saw/f1_133_9.wav"></audio></td></tr>
+
+<!-- s3 Soft & Short Note -->
+<tr><td align="center"><b><i>Soft & Short Note</i></b></td>
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲短音/rec/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲短音/rec/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲短音/pwg/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲短音/pwg/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲短音/hifi/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲短音/hifi/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲短音/ddsp/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲短音/ddsp/f1_037_3.wav"></audio></td>
+
+<td><br/><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲短音/saw/f1_020_1.wav">
+</audio><audio controls id="player" style="height:35px; width:225px;">
+<source src="s3/小聲短音/saw/f1_037_3.wav"></audio></td></tr>
+
+</table></center></div><br/><br/>
+
+
+
+</body>
+</html>
